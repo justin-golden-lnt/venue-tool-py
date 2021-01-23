@@ -10,16 +10,17 @@ Make sure you have Python 3 installed.
 
 https://www.python.org/downloads/
 
+### FIRST TIME SETUP
 
-### Download
+You can download the program from this repository by clicking `"Code" > "Download ZIP"`:
 
-You can download the program from
+<img src="screenshot.png">
 
-https://raw.githubusercontent.com/justin-golden-lnt/venue-tool-py/main/generate_venue.py
+Then unzip the folder.
 
 ### USAGE
 
-Double click generate_venue.py to run it.
+Double click `generate_venue.py` to run it.
 
 (Alternatively, run `py generate_venue.py` from the command line in the current directory)
 
@@ -53,7 +54,7 @@ The file output.txt will contain the newly generated venue XML.
 
 - The output is saved as a .txt file instead of a .xml file for ease of use
 
-### Adding the Venue
+### ADDING THE VENUE
 
 Navigate to:
 
@@ -61,10 +62,9 @@ Navigate to:
 
 Then paste the XML code in and click "Post Data."
 
-THe message should say that it was inserted correctly. If an error is given, it is likely that you do not have the correct password for the `tc_xml` user.
+The message should say that it was inserted correctly. If an error is given, it is likely that you do not have the correct password for the `tc_xml` user.
 
-
-### Saving Time
+### SAVING TIME
 
 You may edit `generate_venue.py` with any plain text editor (such as notepad) and replace `replaceme` with the password, so you do not have to replace it each time. Do **NOT** share this publicly.
 
